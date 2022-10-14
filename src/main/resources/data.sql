@@ -1,0 +1,10 @@
+MERGE INTO `product` (id, name, brand, category, description, quantity, price, image) VALUES
+(1, 'Pump Shoes', 'Nike', 'Footwear', 'These shoes have a pump you can use to form fit the shoe around your foot', 12, 179.00, 'https://i.ebayimg.com/images/g/hy0AAOSwysZgYKsu/s-l500.jpg'),
+(2, 'Kendama', 'KROM', 'Toys', 'This is a Japanese stick and ball toy', 5, 17.00, 'https://cdn.shopify.com/s/files/1/0286/5338/products/kendama-krom-pop-red-1.jpg'),
+(3, 'Gold Parachute Pants', 'Amscan', 'Clothing', 'This is the essence of chic style', 7, 30.00, 'https://images-na.ssl-images-amazon.com/images/I/71HAgFkXJPL._AC_SX679_.jpg'),
+(4, 'Penguin Suit', 'Rasta Mens', 'Clothing', 'The ultimate classy disguise!', 1, 70.00, 'https://images-na.ssl-images-amazon.com/images/I/71TMpbgbYNL._AC_UX522_.jpg'),
+(5, 'Stress Banana', 'HGL', 'Toys', 'Noone can tell it is not a real banana!', 1000, 3.50, 'https://www.tobar.eu/media/catalog/product/cache/6/image/9df78eab33525d08d6e5fb8d27136e95/E42697_800.jpg'),
+(6, 'Hello Kitty', 'Sanrio', 'Toys', 'A perfect gift for any kid!', 1000, 5.00, 'https://media.newyorker.com/photos/59095c67ebe912338a37455d/master/w_1280,c_limit/Stokes-Hello-Kitty2.jpg'),
+(7, 'Nintendo Switch', 'Nintendo', 'Toys', 'Play your favorite games on the go!', 1000, 299.99, 'https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61-PblYntsL.__AC_SY300_SX300_QL70_FMwebp_.jpg'),
+(8, 'Wizard Hat', 'Funny Party Hats', 'Clothing', 'Literally gives you wizard powers!', 1000, 45.00, 'https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/616fxoJ+4zL._AC_UY741_.jpg'),
+(9, 'G a m e r  S h i r t', 'Self-Unaware Individual', 'Clothing', 'If you are a gamer you will understand!', 1000, 25.00, 'https://m.media-amazon.com/images/I/A13usaonutL._CLa%7C2140%2C2000%7C81FuLCE8KvL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UX679_.png');
