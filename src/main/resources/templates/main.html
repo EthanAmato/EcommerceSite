@@ -21,7 +21,8 @@
                     <div class="card-body">
                     	<div class="card-title">
                         	<h4 th:text="${product.name}"></h4>
-                        	<small th:text="${product.getBrand()}"></small>
+                        	<small th:text="${product.getBrand()}"></small><br/>
+                        	<small th:text="${#numbers.formatCurrency(product.getPrice())}"></small>
                     	</div>
                 	</div>    
         		</div>
